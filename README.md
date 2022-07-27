@@ -14,7 +14,7 @@
     <img src="https://img.shields.io/github/workflow/status/lockhinator/fivem-typescript-boilerplate/Node.js%20CI" alt="Workflow">
   </a>
   <a href="https://discord.gg/FHdAJcN82e">
-    <img src="https://img.shields.io/discord/721463005895852102" alt="Chat">
+    <img src="https://img.shields.io/discord/721463005895852102" alt="Discord">
   </a>
 </p>
 
