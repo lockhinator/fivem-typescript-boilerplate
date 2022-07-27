@@ -20,6 +20,8 @@
 
 This is derived from https://github.com/d0p3t/fivem-ts-boilerplate but updated quite a bit!
 
+Jest is used as the testing framework for this boilerplate. If you arent familiar with Jest then checkout the [Offical Jest Documentation](https://jestjs.io/docs/getting-started).
+
 ## Usage
 1. Clone repository into your `resources/[local]` folder.
 2. `yarn` the dependencies.
@@ -35,6 +37,8 @@ Use `yarn lint:fix` to automatically attempt to fix any linting errors.
 Use `yarn prettier` to validate your code formatting.
 
 Use `yarn prettier:fix` to automatically fix your code formatting.
+
+Use `yarn test` to run the test suite.
 
 ### Production
 Build your production ready code with `yarn build`.

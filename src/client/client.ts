@@ -3,5 +3,6 @@ setImmediate(() => {
 });
 
 onNet('helloclient', (message: string) => {
-  console.log(`The server replied: ${message}`);
+  // do something here
+  return message;
 });
