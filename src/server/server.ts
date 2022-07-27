@@ -1,5 +1,5 @@
 onNet('helloserver', () => {
-  const _source = (global as any).source;
+  const _source: string | number = (global).source;
 
   console.log(`Hello from ${_source}`);
 

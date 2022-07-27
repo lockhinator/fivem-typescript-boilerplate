@@ -2,6 +2,7 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
+      "@citizenfx/client": ["node_modules/@citizenfx/client"],
       "*": ["types/*"]
     },
     "outDir": "./",
@@ -10,7 +11,7 @@
     "target": "es6",
     "allowJs": true,
     "lib": ["es2017"],
-    "types": ["@citizenfx/client", "@types/node"],
+    "types": ["@citizenfx/client", "@types/node", "@types/jest"],
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "esModuleInterop": true
