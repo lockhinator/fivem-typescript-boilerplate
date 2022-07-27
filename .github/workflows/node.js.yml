@@ -24,6 +24,7 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
-    - run: npm run lint
-    - run: npm run prettier:check
-    - run: npm run build --if-present
+    - run: yarn
+    - run: yarn lint
+    - run: yarn prettier:check
+    - run: yarn build --if-present
