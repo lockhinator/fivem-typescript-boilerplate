@@ -20,7 +20,15 @@
 
 This is derived from https://github.com/d0p3t/fivem-ts-boilerplate but updated quite a bit!
 
-Jest is used as the testing framework for this boilerplate. If you arent familiar with Jest then checkout the [Offical Jest Documentation](https://jestjs.io/docs/getting-started).
+## Good to Know
+
+#### Testing
+
+**Jest** is used as the testing framework for this boilerplate. If you arent familiar with Jest then checkout the [Offical Jest Documentation](https://jestjs.io/docs/getting-started).
+
+#### Commiting
+
+This boilerplate also comes with **@commitlint/cz-commitlint** out of the box so that your commits look good! All you need to do is run `yarn commit` and follow the interactive prompts!
 
 ## Usage
 1. Clone repository into your `resources/[local]` folder.
